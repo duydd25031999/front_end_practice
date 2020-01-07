@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    background-color: #ff0000;
+}
+
+.float-left {
+    float: left;
+    background-color: #0000ff;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.spacer {
+    clear: both;
+}
