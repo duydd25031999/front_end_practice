@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  background-color: #ff0000;
+}
+
+.relative {
+  position: relative;
+  left: 80px;
+  border: 3px solid #73ad21;
+  background-color: #ffffff;
+}
+
+.ml-50px {
+  margin-left: 50px;
+}
