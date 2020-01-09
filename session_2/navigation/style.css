@@ -1,74 +1,74 @@
 body {
-    background-color: #00cdcd;
-    
+  background-color: #00cdcd;
 }
 
 .nav-list {
-    float: right;
-    list-style: none;
-    margin-right: 10px;
+  float: right;
+  list-style: none;
+  margin-right: 10px;
 }
 
 .nav-item {
-    display: inline-block;
-    padding-bottom: 25px;
-    border-bottom: 2px solid transparent;
+  display: inline-block;
+  padding-bottom: 25px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
 }
 
 .nav-item:hover {
-    border-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .nav-link {
-    color: #ffffff;
-    text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .dropdown {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-list {
-    display: none;
-    position: absolute;
-    list-style: none;
-    background-color: #fdfdfd;
-    top: 100%;
-    padding-left: 0;
-    box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.75);
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: #fdfdfd;
+  top: 100%;
+  left: 0;
+  padding-left: 0;
+  box-shadow: 1px 1px 9px -1px rgba(0, 0, 0, 0.75);
+  width: 150px;
 }
 
 .dropdown:hover .dropdown-list {
-    display: block;
+  display: block;
 }
 
 .dropdown-item {
-    display: block;
-    width: 150px;
-    padding: 20px;
+  padding: 20px;
 }
 
 .dropdown-item:hover {
-    background-color: #00cdcd;
-    
+  background-color: #00cdcd;
 }
 
 .dropdown-link {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 .dropdown-item:hover .dropdown-link {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .arrow {
-    border-top: 4px solid #ffffff;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    width: 0;
-    display: inline-block;
+  margin-left: 3px;
+  border-top: 4px solid #ffffff;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  width: 0;
+  display: inline-block;
 }
