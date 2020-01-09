@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="child">
+      Child 1
+    </div>
+    <div class="child">
+      Child 2
+    </div>
+    <div class="child">
+      Child 3
+    </div>
+    <button class="button">Cannot click</button>
+  </div>
+
+  <ul>
+    <li>
+      <b>z-index: value</b> chỉ ra thứ tự xếp chồng các item (có thể hiểu là
+      tượng trưng cho trục Oz trong không gian 3 chiều)
+    </li>
+    <li><b>z-index</b> của phần tử nào cao hơn thì sẽ trèo lên trên</li>
+    <li>
+      <b>z-index</b> âm sẽ khiến phần tử chìm xuống dưới, vì thế ko thể tương
+      tác được (ví dụ như click)
+    </li>
+    <li>
+      <b>z-index</b> chỉ hoạt động nếu phần tử có position
+      relative/absolute/fixed/sticky (tham khảo thêm trên w3s)
+    </li>
+  </ul>
+</body>

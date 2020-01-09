@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background-color: #ff0000;
+}
+
+.container .child {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.container .child:first-child {
+  background-color: #0977d6;
+  top: 0;
+  left: 50px;
+  z-index: 9999;
+}
+
+.container .child:nth-child(2) {
+  background-color: #2cd649;
+  top: 0;
+  left: 100px;
+  z-index: 1;
+}
+
+.container .child:nth-child(3) {
+    background-color: #2cd6ff;
+    top: 0;
+    left: 150px;
+    z-index: 0;
+  }
+
+.container .button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
