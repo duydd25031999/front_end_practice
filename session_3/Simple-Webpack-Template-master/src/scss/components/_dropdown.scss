@@ -1,0 +1,38 @@
+.dropdown {
+  position: relative;
+  
+  .list {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: #fdfdfd;
+    top: 100%;
+    left: 0;
+    padding-left: 0;
+    box-shadow: 1px 1px 9px -1px rgba(0, 0, 0, 0.75);
+    width: 150px;
+
+    
+    .item {
+        padding: 10px;
+
+        .link {
+            color: $black;
+        }
+
+        &:hover {
+            background-color: $light_blue;
+            .link {
+                color: $white;
+            }
+        }
+    }
+  }
+
+  &:hover  {
+    .list {
+        display: block;
+    }
+    
+  }
+}
