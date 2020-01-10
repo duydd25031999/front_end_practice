@@ -1,0 +1,28 @@
+.collection {
+    margin: 50px;
+    .item {
+        box-sizing: border-box;
+        width: 32%;
+        background-color: $light_blue;
+        margin-right: 1%;
+        padding: 10px;
+        color: $white;
+
+        .icon {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            color: $light_blue;
+            background-color: $white;
+            display: flex;
+            align-items: center;
+            .img {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .item:last-child {
+        margin-right: 0;
+    }
+}
