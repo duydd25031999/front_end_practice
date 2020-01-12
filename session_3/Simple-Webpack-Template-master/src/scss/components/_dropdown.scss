@@ -18,12 +18,21 @@
           color: $black;
       }
 
+<<<<<<< HEAD
       &:hover {
           background-color: $light_blue;
           &>.link {
               color: $white;
           }
       }
+=======
+        &:hover {
+            background-color: $light-blue;
+            .link {
+                color: $white;
+            }
+        }
+>>>>>>> scss collection
     }
   }
 
