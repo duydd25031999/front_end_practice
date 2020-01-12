@@ -18,12 +18,12 @@
           color: $black;
       }
 
-        &:hover {
-            background-color: $light-blue;
-            .link {
-                color: $white;
-            }
+      &:hover {
+        background-color: $light-blue;
+        .link {
+            color: $white;
         }
+      }
     }
   }
 
