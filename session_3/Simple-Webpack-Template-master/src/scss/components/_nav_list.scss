@@ -1,15 +1,18 @@
 .nav-list {
-    margin-right: 10px;
-    .item {
-        padding-bottom: 25px;
+  margin-right: 10px;
+  &>.item {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid transparent;
 
-        .link {
-            color: $white;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
+    &>.link {
+      color: $white;
+      padding-left: 20px;
+      padding-right: 20px;
     }
-    .item:hover {
+
+    &:hover {
         border-color: #ffffff;
     }
+  }
 }

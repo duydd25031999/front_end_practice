@@ -14,18 +14,18 @@
 
     
     .item {
-        padding: 10px;
+      padding: 10px;
 
+      .link {
+          color: $black;
+      }
+
+      &:hover {
+        background-color: $light-blue;
         .link {
-            color: $black;
+            color: $white;
         }
-
-        &:hover {
-            background-color: $light-blue;
-            .link {
-                color: $white;
-            }
-        }
+      }
     }
   }
 
@@ -33,6 +33,5 @@
     .list {
         display: block;
     }
-    
   }
 }
