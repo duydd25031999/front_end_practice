@@ -1,7 +1,7 @@
 .dropdown {
   position: relative;
-  
-  &>.list {
+
+  & > .list {
     display: none;
     position: absolute;
     background-color: #fdfdfd;
@@ -10,51 +10,31 @@
     padding-left: 0;
     box-shadow: 1px 1px 9px -1px rgba(0, 0, 0, 0.75);
     width: 150px;
-    
-<<<<<<< HEAD
-    &>.item {
+
+    & > .item {
       padding: 10px;
 
-      &>.link {
-          color: $black;
+      & > .link {
+        color: $black;
       }
 
-<<<<<<< HEAD
       &:hover {
-          background-color: $light_blue;
-          &>.link {
-              color: $white;
-          }
-      }
-=======
-        &:hover {
-            background-color: $light-blue;
-            .link {
-                color: $white;
-            }
+        background-color: $light_blue;
+        & > .link {
+          color: $white;
         }
->>>>>>> scss collection
-=======
-    .item {
-      padding: 10px;
-
-      .link {
-          color: $black;
       }
-
       &:hover {
         background-color: $light-blue;
         .link {
-            color: $white;
+          color: $white;
         }
       }
->>>>>>> update navigation
     }
   }
-
-  &:hover  {
-    &>.list {
-        display: block;
+  &:hover {
+    & > .list {
+      display: block;
     }
   }
 }
