@@ -11,6 +11,7 @@
     box-shadow: 1px 1px 9px -1px rgba(0, 0, 0, 0.75);
     width: 150px;
     
+<<<<<<< HEAD
     &>.item {
       padding: 10px;
 
@@ -18,12 +19,36 @@
           color: $black;
       }
 
+<<<<<<< HEAD
       &:hover {
           background-color: $light_blue;
           &>.link {
               color: $white;
           }
       }
+=======
+        &:hover {
+            background-color: $light-blue;
+            .link {
+                color: $white;
+            }
+        }
+>>>>>>> scss collection
+=======
+    .item {
+      padding: 10px;
+
+      .link {
+          color: $black;
+      }
+
+      &:hover {
+        background-color: $light-blue;
+        .link {
+            color: $white;
+        }
+      }
+>>>>>>> update navigation
     }
   }
 
