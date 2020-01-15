@@ -19,14 +19,8 @@
       }
 
       &:hover {
-        background-color: $light_blue;
+        background-color: $primary;
         & > .link {
-          color: $white;
-        }
-      }
-      &:hover {
-        background-color: $light-blue;
-        .link {
           color: $white;
         }
       }
