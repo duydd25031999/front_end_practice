@@ -25,7 +25,6 @@
       display: flex;
       align-items: center;
 
-
       & > .img {
         margin: 0 auto;
         font-size: 50px;
@@ -33,37 +32,34 @@
     }
 
     &:hover {
-        border-color: $warning;
+      border-color: $warning;
 
-        .img {
-            color: $warning;
-        }
+      .img {
+        color: $warning;
+      }
     }
   }
 }
-
 
 .introduction {
   display: flex;
   margin-top: 50px;
   background-color: #000000;
   padding-top: 50px;
-  background-image: url('~images/gray-bg.jpg');
+  background-image: url("~images/gray-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
-  > * {   
+  > * {
     width: 50%;
   }
 
   .introduction-left {
-
     .introduction-image {
       float: right;
-      margin-right: 100px;  
+      margin-right: 100px;
     }
-
   }
 
   .introduction-right {
@@ -73,7 +69,6 @@
     > * {
       width: 80%;
     }
-    
 
     .introduction-heading {
       margin-bottom: 40px;
@@ -84,11 +79,7 @@
         text-transform: capitalize;
         margin-bottom: 35px;
       }
-
-      
-
     }
-
 
     .introduction-items {
       display: flex;
@@ -100,18 +91,92 @@
         box-sizing: border-box;
         width: 50%;
         padding-right: 20px;
-        
 
         .introduction-icon {
-
           .img {
             color: $primary;
-            font-size : 40px;
+            font-size: 40px;
           }
-
         }
       }
     }
   }
+}
 
+#product {
+  position: relative;
+
+  &::before {
+    content: " ";
+    display: block;
+    background-color: $primary;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  &::after {
+    content: " ";
+    display: block;
+    width: 0;
+    border-top: 0;
+    border-left: 100vw solid transparent;
+    border-right: 0;
+    border-bottom: 250px solid #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  > .container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+
+    > * {
+      width: 50%;
+    }
+
+    .product_left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: #ffffff;
+
+      .product_intro {
+        font-size: 17px;
+
+        .product_title {
+          font-size: 80px;
+          text-transform: uppercase;
+        }
+
+        .product_btn {
+          text-transform: uppercase;
+          width: 120px;
+          color: $primary;
+          background-color: #ffffff;
+          border-radius: 35px;
+          line-height: 50px;
+          border: 0;
+          font-size: 15px;
+        }
+      }
+    }
+
+    // .product_right {
+    //   position: relative;
+
+    //   .product_img {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     z-index: 1;
+    //   }
+    // }
+  }
 }
