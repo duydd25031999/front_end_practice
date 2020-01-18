@@ -4,7 +4,7 @@ body {
 
 .inline-block {
     display: inline-block;
-    background-color: warning;
+    background-color: yellow;
     padding: 10px;
     /* float: left; */
 }
