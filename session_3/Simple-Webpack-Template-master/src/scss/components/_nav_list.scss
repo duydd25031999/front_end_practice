@@ -1,22 +1,4 @@
 .nav-list {
-<<<<<<< HEAD
-    margin-right: 10px;
-    &>.item {
-        padding-top: 15px;
-        padding-bottom: 25px;
-        border-bottom: 2px solid transparent;
-
-
-
-        &>.link {
-            color: $white;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        &:hover {
-            border-color: #ffffff;
-        }
-=======
   margin-right: 10px;
   & > .item {
     padding-top: 15px;
@@ -29,14 +11,8 @@
       padding-left: 20px;
       padding-right: 20px;
     }
-
     &:hover {
-<<<<<<< HEAD
-        border-color: #ffffff;
->>>>>>> update navigation
-=======
       border-color: #ffffff;
->>>>>>> update home page
     }
   }
 }

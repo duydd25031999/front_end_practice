@@ -15,15 +15,9 @@ module.exports = {
     }
   },
   optimization: {
-    minimizer: [
-      new TerserJSPlugin({}),
-      new OptimizeCSSAssetsPlugin({})
-    ],
+    minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})]
   },
-  entry: [
-    './src/js/index.js',
-    './src/scss/main.scss'
-  ],
+  entry: ['./src/js/index.js', './src/scss/main.scss'],
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
@@ -51,8 +45,8 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
-          'sass-loader',
-          'postcss-loader'
+          'postcss-loader',
+          'sass-loader'
         ]
       },
       {
@@ -61,7 +55,8 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-                outputPath: 'images'
+              outputPath: 'images',
+              esModule: false,
             }
           }
         ]
@@ -70,12 +65,18 @@ module.exports = {
         test: /\.(woff|woff2|ttf|otf|eot)$/,
         use: [
           {
-            loader: "file-loader",
+            loader: 'file-loader',
             options: {
               outputPath: 'fonts'
             }
           }
         ]
+      },
+      {
+        test: /\.(html)$/,
+        use: {
+          loader: 'html-loader'
+        }
       }
     ]
   },
