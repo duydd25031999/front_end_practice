@@ -1,0 +1,23 @@
+.btn {
+    text-transform: capitalize;
+    text-align: center;
+    @include font--16_line--24;
+
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 21px;
+    padding-left: 21px;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: $color--primary;
+    border: 1px solid $color--primary;
+    box-shadow: 0px 3px 5px rgba(47, 85, 212, 0.3);
+    background-color: #ffffff;
+    cursor: pointer;
+
+    &--primary {
+        background-color: $color--primary;
+        color: #ffffff;
+    }
+}

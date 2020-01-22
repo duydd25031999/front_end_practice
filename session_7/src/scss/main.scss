@@ -1,0 +1,30 @@
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap');
+
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/helpers';
+@import 'utils/mixins';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/content';
+@import 'components/nav_collection';
+@import 'components/dropdown';
+@import 'components/buttons';
+@import 'components/arrow';
+@import 'components/feature';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/footer';
+
+@import 'pages/index';
+@import 'pages/home';
+@import 'pages/about';
