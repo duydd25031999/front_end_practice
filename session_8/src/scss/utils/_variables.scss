@@ -1,0 +1,24 @@
+$primary-color: #ffffff;
+$primary-color-hover: #ffffff;
+$primary-bg-color: #2f55d4;
+$primary-bg-color-hover: #2f55d4;
+$primary-border-color: #2f55d4;
+
+$disabled-lighten: 15%;
+
+$button-colors: (
+    primary: (
+        color: #ffffff,
+        color-hover: #ffffff,
+        bg-color: #2f55d4,
+        bg-color-hover: #2443AC,
+        border-color: #2f55d4,
+    ),
+    default: (
+        color: #2f55d4,
+        color-hover: #ffffff,
+        bg-color: #ffffff,
+        bg-color-hover: #2f55d4,
+        border-color: #2f55d4,  
+    ),
+);
