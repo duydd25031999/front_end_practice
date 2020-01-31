@@ -1,0 +1,29 @@
+html {
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+body {
+  font-family: $font--nunito;
+  background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+}
+
+p {
+  margin: 0;
+}

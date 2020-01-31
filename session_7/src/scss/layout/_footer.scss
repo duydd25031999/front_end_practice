@@ -1,0 +1,106 @@
+
+#main__footer {
+    margin-top: 100px;
+    background-color: #202942;
+    padding-top: 60px;
+    color: $color--light;
+    padding-bottom: 6px;
+  
+    > .container {
+      > * {
+        @include content--space-between;
+      }
+      .footer__high {
+        padding-bottom: 60px;
+  
+        .footer__slogan {
+          width: 348px;
+          > * {
+            width: 100%;
+          }
+  
+          .footer__heading {
+            font-size: 24px;
+            line-height: 36px;
+          }
+        }
+  
+        .footer__heading {
+          font-size: 20px;
+          line-height: 30px;
+          letter-spacing: 1px;
+          text-transform: capitalize;
+          margin-bottom: 26px;
+        }
+  
+        .footer__sub-heading {
+          @include font--16_line--26;
+          color: #adb5bd;
+        }
+  
+        .footer__list {
+          list-style-type: "\203A \00A0";
+  
+          .footer__item {
+            @include font--16_line--24;
+            color: #adb5bd;
+            margin-top: 11px;
+          }
+        }
+  
+        .footer__form {
+          margin-top: 15px;
+  
+          &__title {
+            font-size: 14px;
+            line-height: 21px;
+            color: #adb5bd;
+          }
+  
+          .footer__text {
+            margin-top: 8px;
+            position: relative;
+  
+            &__input {
+              width: 100%;
+              background: #25304e;
+              border: 1px solid #25304e;
+              border-radius: 10px;
+              line-height: 42px;
+            }
+  
+            &__placeholder {
+              position: absolute;
+              top: 10px;
+              left: 16px;
+              @include font--16_line--24;
+  
+              > .fas {
+                margin-right: 8px;
+              }
+            }
+          }
+  
+          .btn {
+            margin-top: 20px;
+            width: 100%;
+          }
+        }
+      }
+  
+      .footer__line {
+      }
+  
+      .footer__low {
+        align-items: center;
+        height: 85px;
+  
+        .footer__payment {
+          &__img {
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+  
