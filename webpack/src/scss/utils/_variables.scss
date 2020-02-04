@@ -1,4 +1,11 @@
-$primary-color: #ffffff;
+$primary-color: #2F55D4;
+$primary-border-color: #2F55D4;
+
+$dark-color: #3C4858;
+
+$info-color: #8492A6;
+$light-color: #F8F9FC;
+
 $primary-color-hover: #ffffff;
 $primary-bg-color: #2f55d4;
 $primary-bg-color-hover: #2f55d4;
@@ -22,3 +29,13 @@ $button-colors: (
         border-color: #2f55d4,  
     ),
 );
+
+
+$font--nunito: 'Nunito', sans-serif;
+$font--open-sans: 'Open Sans', sans-serif ;
+
+$color--primary: #2F55D4;
+$color--dark: #3C4858;
+$color--font-dark: #161C2D;
+$color--info: #8492A6;
+$color--light: #F8F9FC;

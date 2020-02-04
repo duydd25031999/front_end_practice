@@ -6,6 +6,7 @@
     letter-spacing: 0.5px;
     border-radius: 10px;
     border: 1px solid;
+    text-transform: capitalize;
 }
 
 @each $name, $colors in $button-colors {

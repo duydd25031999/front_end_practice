@@ -3,7 +3,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/brands';
 @import '~@fortawesome/fontawesome-free/scss/regular';
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
 
 @import 'utils/variables';
 @import 'utils/functions';
@@ -14,11 +14,12 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import 'base/typography';
 
 @import 'components/buttons';
+@import 'components/dropdown';
+@import 'components/slogan';
 
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/navigation';
 @import 'layout/footer';
 
-@import 'pages/home';
-@import 'pages/about';
+@import 'pages/index';

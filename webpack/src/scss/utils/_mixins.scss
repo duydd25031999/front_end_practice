@@ -1,0 +1,33 @@
+@mixin flex--middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  @mixin flex--space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  @mixin font--16_line--26 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  @mixin font--16_line--24 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  @mixin font--35_line--52 {
+    font-size: 35px;
+    line-height: 52px;
+  }
+  
+  @mixin flex--center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
