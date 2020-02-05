@@ -7,7 +7,7 @@
 
   &--heading {
     text-transform: capitalize;
-    color: $color--font-dark;
+    color: $dark-color;
     width: 784px;
     font-size: 40px;
     line-height: 60px;
@@ -35,17 +35,4 @@
       margin-left: 4px;
     }
   }
-}
-
-.line--main {
-  width: 100%;
-  height: 1px;
-  color: #dee2e6;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.container > .line--main {
-  margin-left: 0;
-  margin-right: 0;
 }
