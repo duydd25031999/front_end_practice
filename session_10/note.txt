@@ -1,0 +1,33 @@
+loosely typing
+    - không khai báo cụ thể kiểu biến
+    javascript
+        primary
+            number
+            string
+            boolean
+        reference
+            object
+            null
+            undefined
+        ==
+            so sánh ép kiểu
+        ===
+            so sánh không ép kiểu
+    php
+    ruby
+    python
+stricti typing
+    - phải khai báo thông tin cụ thể
+
+truthy -> if đúng
+falsy -> ìf sai
+    0
+    false
+    null
+    undefined
+    '' (length = 0)
+    NaN
+
+object
+    mutate
+    
