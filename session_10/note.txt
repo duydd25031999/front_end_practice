@@ -1,33 +1,82 @@
 loosely typing
     - không khai báo cụ thể kiểu biến
     javascript
-        primary
-            number
-            string
-            boolean
-        reference
-            object
-            null
-            undefined
-        ==
-            so sánh ép kiểu
-        ===
-            so sánh không ép kiểu
     php
     ruby
     python
 stricti typing
     - phải khai báo thông tin cụ thể
-
-truthy -> if đúng
-falsy -> ìf sai
-    0
-    false
-    null
-    undefined
-    '' (length = 0)
-    NaN
-
-object
-    mutate
     
+1. Datatype chia làm 2 nhóm :
+    primary : mỗi biến sẽ được khai báo vào 1 ô nhớ mới
+        string
+        number
+        boolean
+        bigint
+        symbol
+    reference : assign lầu đầu sẽ tạo 1 ô nhớ mới trong bộ nhớ, assign những lần sau sẽ sửa vào ô nhớ đã tạo từ lần đầu
+        object
+        array
+        function
+        null
+        undefined
+2. Let và const thì scope đều là block scope
+    nếu khai báo trong 1 {block} thì không được dùng bên ngoài {block} đó
+    const thì không reassigned
+3. Falsy and Truthy
+    falsy -> if sai
+        0
+        false
+        null
+        undefined
+        “" (length = 0)
+        NaN
+    truthy -> if đúng
+        tất cả không phải falsy
+4. Comparison operator
+    == là so sánh bằng nhưng có ép type, không bằng là !=
+    === là so sánh bằng nhưng ko ép kiểu, không bằng là !==
+    > là lớn hơn, >= là lớn hơn hoặc bằng
+    < là nhỏ hơn, <= là nhỏ hơn hoặc bằng
+    return boolean
+
+1.Function
+    - JS function là 1 Function object
+        function a() {
+
+        }
+
+        var b = a;
+        console.log(typeof b); //function
+    - khai báo function
+        + declaction function
+            function foo() {...}
+        + expression function
+            var foo = function() {...}
+        + self-involing function
+            (function() {...})()
+    - 'this' trong function = context mà nó đc gọi
+        var a = {
+            name: "Duy",
+            age: 21,
+            showInfor: function() {
+                console.log(this); // 'this' thay thế  cho a
+            }
+        }
+        var a = Person("Duy", 21);
+        + Nếu function đc khai báo cục bộ =auto=> context = Window
+            var a = {
+                func: function() {
+                    function func2() {
+                        console.log(this); // 'this' thay thế  cho 'Window'
+                    }
+                    func2();
+                }
+            }
+2. Callback
+    - callback là một function truyền vào 1 function khác như 1 argument
+     + Function kia có thể  gọi callback function bên trong scope của nhóm
+3. Arrow function
+    - Arrow function không có this => nó lấy this gần nhất
+
+essential
