@@ -1,0 +1,13 @@
+.index-page__footer {
+  .footer {
+    min-height: 115px;
+    background-color: #f8f9fa;
+
+    &__content {
+      font-family: $font-merriweather;
+      font-size: 12px;
+      line-height: 19px;
+      color: #6c757d;
+    }
+  }
+}

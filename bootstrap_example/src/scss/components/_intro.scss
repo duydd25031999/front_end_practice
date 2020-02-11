@@ -1,0 +1,15 @@
+.intro {
+  &__text {
+    text-align: center;
+  }
+
+  &__line{
+    width: 52px;
+    height: 3.19px;
+  }
+
+  &__sub-heading {
+    font-family: $font-merriweather;
+    color: $transparent-color;
+  }
+}
