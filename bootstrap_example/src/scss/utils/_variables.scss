@@ -1,0 +1,38 @@
+$default-color: #000000;
+$default-color-hover: #000000;
+$default-bg-color: #ffffff;
+$default-bg-color-hover: #ffffff;
+
+$primary-color: #ffffff;
+$primary-color-hover: #ffffff;
+$primary-bg-color: #f4623a;
+$primary-bg-color-hover: #ee3e0d;
+
+$black-color: #212529;
+
+$transparent-color: rgba(255, 255, 255, 0.7);
+
+$font-sm: calc(1rem - 2px);
+$disabled-lighten: 15%;
+
+$button-colors: (
+  primary: (
+    color: $primary-color,
+    color-hover: $primary-color-hover,
+    bg-color: $primary-bg-color,
+    bg-color-hover: $primary-bg-color-hover,
+  ),
+  default: (
+    color: $default-color,
+    color-hover: $default-color-hover,
+    bg-color: $default-bg-color,
+    bg-color-hover: $default-bg-color-hover,
+  ),
+);
+
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);

@@ -1,0 +1,23 @@
+.btn {
+  padding: 19px 36px;
+  outline: 0;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 160px;
+  font-size: $font-sm;
+  line-height: calc(1em + 6px);
+  text-transform: uppercase;
+}
+
+@each $name, $colors in $button-colors {
+  .btn--#{$name} {
+    background-color: map-get($colors, "bg-color");
+    color: map-get($colors, "color");
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      background-color: map-get($colors, "bg-color-hover");
+      color: map-get($colors, "color-hover");
+      cursor: pointer;
+    }
+  }
+}
