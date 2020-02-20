@@ -72,8 +72,6 @@
 //         func2();
 //     }
 // }
-function handleForEach
-arr.forEach(handleForEach)
 
 /**
  * 
@@ -99,7 +97,7 @@ var biggestNumber = function(arrParam) {
 }
 
 var arr = ['1', '2', '3'];
-console.log(biggestNumber(arr));
+// console.log(biggestNumber(arr));
 
 var max = arr[0];
 for(var i = 0; i < arr.length; i++) {
@@ -113,3 +111,14 @@ for(var i = 0; i < arr.length; i++) {
 for(var i in arr) {
 
 }
+
+var adder = {
+    base: 1,
+  
+    add: function(a) {
+      var f = v => v + this.base;
+      return f(a);
+    }
+};
+
+console.log(adder.add(1));
